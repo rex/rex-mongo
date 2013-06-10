@@ -6,8 +6,8 @@
   "version": "0.0.1",
   "main": "lib/rex-mongo.js",
   "bin" : {
-    "rex-mongo" : "lib/rex-mongo.js",
-    "rmongo" : "lib/rex-mongo.js"
+    "rex-mongo" : "bin/rex-kickstart",
+    "rmongo" : "bin/rex-kickstart"
   },
   "repository": {
     "type": "git",

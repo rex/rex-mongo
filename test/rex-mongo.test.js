@@ -48,3 +48,9 @@ mongo.list('zngine_dev', function(stderr, stdout) {
   if(stderr) throw stderr
   cli("Mongo collections inside zngine_dev", JSON.parse( stdout ) )
 })
+
+cli("running database drop")
+mongo.drop('zngine_dev', function(stderr, stdout) {
+  if(stderr) throw stderr
+  cli("Drop database results: " + stdout)
+})
