@@ -3,11 +3,11 @@
   "name": "rex-mongo",
   "description": "A small collection of utilities to simplify development using MongoDB.",
   "homepage": "https://github.com/rex/rex-mongo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/rex-mongo.js",
-  "bin" : {
-    "rex-mongo" : "bin/rex-kickstart",
-    "rmongo" : "bin/rex-kickstart"
+  "bin": {
+    "rex-mongo": "bin/rex-kickstart",
+    "rmongo": "bin/rex-kickstart"
   },
   "repository": {
     "type": "git",
@@ -30,9 +30,9 @@
     "test": "./test"
   },
   "dependencies": {
-    "rex-exec" : "*",
+    "rex-exec": "*",
     "rex-shell": "*",
-    "optimist" : "*"
+    "optimist": "*"
   },
   "devDependencies": {
     "async": "*"
