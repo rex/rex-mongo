@@ -1,0 +1,47 @@
+{
+  "author": "Pierce Moore <me@prex.io>",
+  "name": "rex-mongo",
+  "description": "A small collection of utilities to simplify development using MongoDB.",
+  "homepage": "https://github.com/rex/rex-mongo",
+  "version": "0.0.1",
+  "main": "lib/rex-mongo.js",
+  "bin" : {
+    "rex-mongo" : "lib/rex-mongo.js",
+    "rmongo" : "lib/rex-mongo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rex/rex-mongo.git"
+  },
+  "keywords": [
+    "shell",
+    "console",
+    "execute",
+    "bash",
+    "cli",
+    "mongo",
+    "mongodb",
+    "rex"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "rex-exec" : "*",
+    "rex-shell": "*",
+    "optimist" : "*"
+  },
+  "devDependencies": {
+    "async": "*"
+  },
+  "config": {},
+  "bugs": {
+    "url": "https://github.com/rex/rex-mongo/issues"
+  },
+  "scripts": {
+    "test": "node ./test/rex-mongo.test.js"
+  }
+}
