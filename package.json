@@ -32,12 +32,21 @@
   "dependencies": {
     "rex-exec": "*",
     "rex-shell": "*",
-    "optimist": "*"
+    "rex-utils": "*"
   },
   "devDependencies": {
     "async": "*"
   },
-  "config": {},
+  "config": {
+    "cli" : {
+      "usage" : "rex-mongo [list|count|drop|version|help] [database]",
+      "args" : {
+        "count" : "Count the collections in a database. Leave empty for a list of databases.",
+        "list" : "List the collections in a database. Leave empty for a list of databases.",
+        "drop" : "Drop an entire database. Leave empty for a list of databases."
+      }
+    }
+  },
   "bugs": {
     "url": "https://github.com/rex/rex-mongo/issues"
   },
