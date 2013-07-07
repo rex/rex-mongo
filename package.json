@@ -3,7 +3,7 @@
   "name": "rex-mongo",
   "description": "A small collection of utilities to simplify development using MongoDB.",
   "homepage": "https://github.com/rex/rex-mongo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/rex-mongo.js",
   "bin": {
     "rex-mongo": "bin/rex-kickstart",
